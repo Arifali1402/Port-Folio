@@ -14,10 +14,9 @@ function About() {
       <h1 className='font-["NEUEMONTREAL-REGULAR"] text-[4vw] leading-[4vw] tracking-tight'>As a dedicated software engineering student, I am committed to learning and growing in the field of technology. With a strong foundation in problem-solving and a passion for innovation, I am eager to contribute to impactful projects and explore new horizons in engineering.</h1>
       <div id="projects" className='flex gap-5 w-full border-t-[1px] mt-20 pt-20 border-[#a1b562]'>
         <div className='w-1/2'>
-        <h1 className='text-5xl pb-4'>Featured Projects:</h1>
-        <h1 className='text-4xl'>TASK-KEEPER</h1>
-        <div className='text-black font-semibold mt-8 uppercase'> A simple and user-friendly ToDo List application built with React, 
-        featuring task addition, deletion and completion status toggling.
+        <h1 className='text-5xl pb-4'>Featured Project:</h1>
+        <h1 className='text-4xl'>LiveDocs</h1>
+        <div className='text-black font-semibold mt-8 uppercase'> An improved Google Docs that manages millions of collaborators in real-time.
         </div>
         </div>
 
@@ -27,8 +26,8 @@ function About() {
             className="relative w-1/2 h-[75vh] "
           >
             <div className="w-full h-full rounded-xl overflow-hidden">
-              <h1 className="absolute flex overflow-hidden text-[#000000] right-[50%] translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] leading-none tracking-tighter text-8xl">
-                {"TASK-KEEPER".split("").map((item, index) => (
+              <h1 className="absolute flex overflow-hidden text-[#0e2963] right-[50%] translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] leading-none tracking-tighter text-8xl">
+                {"LIVE-DOCS".split("").map((item, index) => (
                   <motion.span
                     initial={{ y: "100%" }}
                     animate={cards[0]}
@@ -42,9 +41,9 @@ function About() {
                   </motion.span>
                 ))}
               </h1>
-              <a href="https://task-keeper-one.vercel.app/" target="_blank" className="pointer-cursor"><img
+              <a href="https://github.com/Arifali1402/livedoc" target="_blank" className="pointer-cursor"><img
                 className="w-full h-full bg-cover"
-                src="/task-keeper.png"
+                src="https://bookface-images.s3.amazonaws.com/logos/22ba8921676051e2778eccd66d60f13b8b6f109e.png"
               />
               </a>
             </div>

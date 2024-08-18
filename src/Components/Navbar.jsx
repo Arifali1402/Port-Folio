@@ -58,7 +58,7 @@ function Navbar() {
           href="#projects"
           onClick={handleScroll}
         >
-          Projects
+          Project
         </a>
         <a
           className={`text-lg capitalize font-regular font-light`}

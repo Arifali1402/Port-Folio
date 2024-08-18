@@ -40,10 +40,15 @@ function Featured() {
                   </motion.span>
                 ))}
               </h1>
-              <a href="https://my-tic-tac-toe-two.vercel.app/" target="_blank" className="pointer-cursor"><img
-                className="w-full h-full bg-cover"
-                src="/tic-tac-toe.png"
-              />
+              <a
+                href="https://github.com/Arifali1402/myTicTacToe"
+                target="_blank"
+                className="pointer-cursor"
+              >
+                <img
+                  className="w-full h-full bg-cover"
+                  src="/tic-tac-toe.png"
+                />
               </a>
             </div>
           </motion.div>
@@ -69,11 +74,15 @@ function Featured() {
                   </motion.span>
                 ))}
               </h1>
-              <a href="https://rock-paper-scissors-game-phi-five.vercel.app/" target="_blank" className="pointer-cursor">
-              <img
-                className="w-full h-full bg-cover"
-                src="/rock-paper-scissor.png"
-              />
+              <a
+                href="https://github.com/Arifali1402/rock-paper-scissors-game"
+                target="_blank"
+                className="pointer-cursor"
+              >
+                <img
+                  className="w-full h-full bg-cover"
+                  src="/rock-paper-scissor.png"
+                />
               </a>
             </div>
           </motion.div>
