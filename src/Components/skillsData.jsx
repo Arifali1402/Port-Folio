@@ -30,22 +30,16 @@ export const skills = [
     icon: "https://cdn-icons-png.flaticon.com/128/11516/11516361.png",
   },
   {
-    name: "Tailwindcss",
-    description:
-      "Skilled in using Tailwind CSS for utility-first styling, enabling rapid and consistent design implementations.",
-    icon: "https://ganeshdutt100.github.io/Ganesh_Portfolio/about-Tailwind.png",
-  },
-  {
     name: "JavaScript",
     description:
       "Adept at JavaScript for building interactive web features, with experience in modern ES6+ syntax and frameworks like React.",
     icon: "https://cdn-icons-png.flaticon.com/512/5968/5968292.png", 
   },
   {
-    name: "Express JS",
+    name: "Tailwindcss",
     description:
-      "Experienced with Express.js for building robust and scalable web applications. ",
-    icon: "https://www.dongee.com/tutoriales/content/images/2023/11/image-59.png", 
+      "Skilled in using Tailwind CSS for utility-first styling, enabling rapid and consistent design implementations.",
+    icon: "https://ganeshdutt100.github.io/Ganesh_Portfolio/about-Tailwind.png",
   },
   {
     name: "React JS",
@@ -65,13 +59,6 @@ export const skills = [
       "Proficient in SQL for database management and querying, with experience in designing and optimizing complex queries and managing data integrity.",
     icon: "https://cdn-icons-png.flaticon.com/128/4248/4248443.png", 
   },
-  {
-    name: "MongoDB",
-    description:
-      "Experienced with MongoDB for NoSQL database management, focusing on document-oriented data storage and flexible schema design.",
-    icon: "https://dwglogo.com/wp-content/uploads/2017/12/MongoDB_logo.png", 
-  },
-  // Add more skills if needed
 ];
 
 
