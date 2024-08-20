@@ -8,7 +8,7 @@ function Footer() {
     <>
       <div id="contacts" className="w-full h-[75vh] bg-zinc-900 p-20 font-['NEUEMONTREAL-REGULAR']">
         <div className="heading w-full pt-2">
-          <p className="text-[6vw] uppercase leading-none -mb-4 text-center">
+          <p className="text-[6vw] font-['Ubuntu'] uppercase leading-none -mb-4 text-center">
             Get In Touch
           </p>
         </div>

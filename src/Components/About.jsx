@@ -11,12 +11,12 @@ function About() {
   };
   return (
     <div id="about" className='w-full p-16 bg-[#ceeb67ff] rounded-tl-3xl rounded-tr-3xl text-black'>
-      <h1 className='font-["NEUEMONTREAL-REGULAR"] text-[4vw] leading-[4vw] tracking-tight'>As a dedicated software engineering student, I am committed to learning and growing in the field of technology. With a strong foundation in problem-solving and a passion for innovation, I am eager to contribute to impactful projects and explore new horizons in engineering.</h1>
+      <h1 className='font-["Ubuntu"] font-light text-[4vw] leading-[4vw] tracking-tight'>As a dedicated software engineering student, I am committed to learning and growing in the field of technology. With a strong foundation in problem-solving and a passion for innovation, I am eager to contribute to impactful projects and explore new horizons in engineering.</h1>
       <div id="projects" className='flex gap-5 w-full border-t-[1px] mt-20 pt-20 border-[#a1b562]'>
         <div className='w-1/2'>
-        <h1 className='text-5xl pb-4'>Featured Project:</h1>
-        <h1 className='text-4xl'>LiveDocs</h1>
-        <div className='text-black font-semibold mt-8 uppercase'> An improved Google Docs that manages millions of collaborators in real-time.
+        <h1 className='text-5xl pb-4 font-["Ubuntu"] underline'>Featured Project:</h1>
+        <h1 className='text-4xl font-["Ubuntu"] underline'>LiveDocs</h1>
+        <div className='text-black font-semibold mt-8 uppercase font-["Ubuntu"] font-light'> An improved Google Docs that manages millions of collaborators in real-time.
         </div>
         </div>
 
@@ -26,7 +26,7 @@ function About() {
             className="relative w-1/2 h-[75vh] "
           >
             <div className="w-full h-full rounded-xl overflow-hidden">
-              <h1 className="absolute flex overflow-hidden text-[#0e2963] right-[50%] translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] leading-none tracking-tighter text-8xl">
+              <h1 className="absolute flex overflow-hidden text-[#0e2963] right-[50%] translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] leading-none tracking-tighter font-['Ubuntu'] text-8xl">
                 {"LIVE-DOCS".split("").map((item, index) => (
                   <motion.span
                     initial={{ y: "100%" }}

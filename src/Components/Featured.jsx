@@ -13,7 +13,7 @@ function Featured() {
   return (
     <div id="games" className="w-full py-20">
       <div className="w-full px-20 border-b-[1px] border-zinc-700 pb-8">
-        <h1 className='text-6xl font-["NEUEMONTREAL-REGULAR"] tracking-tight'>
+        <h1 className='text-6xl font-["Ubuntu"] underline tracking-tight'>
           Featured Games:
         </h1>
       </div>
@@ -25,7 +25,7 @@ function Featured() {
             className="cardcontainer relative w-1/2 h-[75vh]"
           >
             <div className="card w-full h-full rounded-xl overflow-hidden">
-              <h1 className="absolute flex text-[#ff34c2] overflow-hidden right-0 translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] leading-none tracking-tighter text-8xl">
+              <h1 className="absolute flex text-[#ff34c2] font-['Ubuntu'] overflow-hidden right-0 translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] leading-none tracking-tighter text-8xl">
                 {"TIC-TAC-TOE".split("").map((item, index) => (
                   <motion.span
                     initial={{ y: "100%" }}
@@ -59,7 +59,7 @@ function Featured() {
             className="cardcontainer relative w-1/2 h-[75vh]"
           >
             <div className="card w-full h-full rounded-xl overflow-hidden">
-              <h1 className="absolute flex overflow-hidden text-[#30f740] right-full translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] leading-none tracking-tighter text-8xl">
+              <h1 className="absolute flex overflow-hidden text-[#30f740] font-['Ubuntu'] right-full translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] leading-none tracking-tighter text-8xl">
                 {"ROCK-PAPER-SCISSOR".split("").map((item, index) => (
                   <motion.span
                     initial={{ y: "100%" }}

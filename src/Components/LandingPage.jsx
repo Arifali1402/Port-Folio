@@ -11,8 +11,8 @@ function LandingPage() {
             return (
               <div className="masker">
                 <div className="w-fit flex">
-                {index === 1 && (<motion.div initial={{width:0}} animate={{width: "9vw"}} transition={{ease: [0.76, 0, 0.24, 1], duration: 1}} className="mr-[.65vw] w-[5.5vw] h-[4.2vw] relative bg-green-500 rounded-md overflow-hidden"></motion.div>)}
-                  <h1 className='flex items-center uppercase text-[6vw] h-full leading-[5.2vw] tracking-tight font-["BAHNSCHRIFT"] font-bold'>
+                {index === 1 && (<motion.div initial={{width:0}} animate={{width: "9vw"}} transition={{ease: [0.76, 0, 0.24, 1], duration: 1}} className="mr-[.65vw] w-[5.5vw] h-[4 vw] relative bg-green-500 rounded-md overflow-hidden"></motion.div>)}
+                  <h1 className='flex items-center uppercase text-[5vw] h-full leading-[5.2vw] tracking-tight font-["Ubuntu"] font-bold'>
                     {item}
                   </h1>
                 </div>
@@ -25,17 +25,17 @@ function LandingPage() {
         </motion.div>
       </div>
       
-      <div className="w-[50%] border-t-[1px] border-zinc-800 mt-8 flex justify-between items-center py-5 px-20">
+      <div className="w-[100%] border-t-[1px] border-zinc-800 mt-8 flex justify-between items-center py-5 px-20">
         {[
-          "I am a Coder.",
-          "I am a Web Developer.",
+          "Skilled coder with efficient solutions.",
+          "Experienced in building dynamic web applications",
         ].map((item, index) => (
-          <p className="text-md font-light tracking-tight leading-none">
+          <p className="text-md font-['Familjen Grotesk'] font-semibold tracking-tight leading-none">
             {item}
           </p>
         ))}
         <div className="start flex items-center gap-3">
-          <div className="px-5 py-2 border-[2px] border-zinc-500 rounded-full font-light text-sm uppercase">
+          <div className="px-5 py-2 border-[2px] border-zinc-500 rounded-full font-['Familjen Grotesk'] font-semibold text-sm uppercase">
             Download My CV
           </div>
           <div className="w-10 h-10 flex items-center justify-center border-[1px] border-zinc-300 rounded-full">
